@@ -1,0 +1,171 @@
+@keyframes animasi {
+    from {
+        left: -30px;
+        opacity: 0;
+    } to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animasi2 {
+    from {
+        left: -10px;
+        opacity: 0;
+    } to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animasi3 {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes codepen {
+    from {
+        opacity: 0;
+        transform: scale(0);
+        bottom: 1px;
+        right: 0px;
+    } to {
+        transform: scale(0.8);
+        opacity: 1;
+        bottom: 170px;
+        right: 10px;
+    }
+}
+
+@keyframes codepen2 {
+    from {
+        opacity: 1;
+        transform: scale(0.8);
+        bottom: 170px;
+        right: 10px;
+    } to {
+        transform: scale(0);
+        opacity: 0;
+        bottom: 1px;
+        right: 10px;
+    }
+}
+
+@keyframes note {
+    from {
+        opacity: 0;
+        transform: scale(0);
+        bottom: 1px;
+        right: 0px;
+    } to {
+        transform: scale(0.8);
+        opacity: 1;
+        bottom: 220px;
+        right: 10px;
+    }
+}
+
+@keyframes note2 {
+    from {
+        opacity: 1;
+        transform: scale(0.8);
+        bottom: 220px;
+        right: 10px;
+    } to {
+        transform: scale(0);
+        opacity: 0;
+        bottom: 1px;
+        right: 10px;
+    }
+}
+
+@keyframes instagram {
+    from {
+        opacity: 0;
+        transform: scale(0);
+        bottom: 1px;
+    } to {
+        transform: scale(0.8);
+        opacity: 1;
+        bottom: 70px;
+        right: 10px;
+    }
+}
+
+@keyframes instagram2 {
+    from {
+        opacity: 1;
+        transform: scale(0.8);
+        bottom: 70px;
+        right: 10px;
+
+    } to {
+        transform: scale(0);
+        opacity: 0;
+        bottom: 1px;
+        right: 10px;
+    }
+}
+
+@keyframes freecodecamp {
+    from {
+        opacity: 0;
+        transform: scale(0);
+        bottom: 1px;
+    } to {
+        transform: scale(0.8);
+        opacity: 1;
+        bottom: 120px;
+        right: 10px;
+    }
+}
+
+@keyframes freecodecamp2 {
+    from {
+        opacity: 1;
+        transform: scale(0.8);
+        bottom: 120px;
+        right: 10px;
+
+    } to {
+        transform: scale(0);
+        opacity: 0;
+        bottom: 1px;
+        right: 10px;
+    }
+}
+
+@keyframes animasii {
+    0% {
+        top: -35px;
+    }15% {
+        top: -35px;
+    }30% {
+        top: -95px;
+    }45% {
+        top: -95px;
+    }60% {
+        top: -155px;
+    }75% {
+        top: -155px;
+    }
+}
+
+@keyframes animaci {
+    from {
+        top: 670px;
+    } to {
+        top: 0;
+    }
+}
+
+@keyframes animaci2 {
+    from {
+        top: 0;
+    } to {
+        top: 670px;
+    }
+}
