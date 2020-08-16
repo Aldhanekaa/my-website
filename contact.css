@@ -144,11 +144,9 @@
 }.text_area_ textarea {
     padding: 10px;
     font-size: 17px;
-    resize: vertical;
     max-height: 100%;
     box-sizing: border-box;
     width: 94%;
-    resize: none;
     height: 100%;
     border-radius: 5px;
     border: 1px solid rgb(113, 113, 113);
