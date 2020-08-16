@@ -34,7 +34,7 @@
 
 .card_1 {
     width: 400px;
-    height: 550px;
+    height: 560px;
     padding: 5px 10px;
     border-radius: 15px;
     box-sizing: border-box;
@@ -50,7 +50,7 @@
 }.info_3 h2 {
     font-size: 16px;
 }.info_3 {
-    margin-top: 100px;
+    margin-top: 120px;
 }.info_2 {
     display: flex;
     width: 100%;
@@ -159,11 +159,15 @@
 }.form_ button{
     width: 100px;
     margin-top: 10px;
-    background-color: var(--color);
+    background-color: rgb(0, 218, 164);
     color: white;
     border-radius: 5px;
     height: 45px;
     outline: none;
     cursor: pointer;
     font-size: 15px;
+}
+
+.form_ button:active {
+    background-color: rgb(122, 215, 192);
 }
