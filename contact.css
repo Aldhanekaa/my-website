@@ -143,6 +143,7 @@
     width: 45%;
 }textarea {
     height: 100px;
+    width: 94%;
     border: 1px solid rgb(113, 113, 113);
 }.form_ button{
     width: 100px;
