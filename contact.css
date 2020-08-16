@@ -139,9 +139,7 @@
     width: 45%; margin-right: 25px;
 }.email {
     width: 45%;
-}.text_area_ {
-    width: 100%;
-    height: 250px;
+}
 }.text_area_ textarea {
     padding: 10px;
     font-size: 17px;
@@ -153,7 +151,7 @@
     height: 100%;
     border-radius: 5px;
     border: 1px solid rgb(113, 113, 113);
-}.text_area_ textarea:focus {
+}textarea:focus {
     border: 1px solid var(--color);
     outline: none;
 }.form_ button{
