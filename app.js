@@ -8,7 +8,7 @@ var modalBg = document.querySelector('.modal-bg')
 var modalClose = document.querySelector('.close-modal');
 modalBtn.addEventListener('click', function () {
     modalBg.classList.add('bg-active');
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflowY = 'hidden';
     modalBg.classList.remove('closing')
 })
 
@@ -16,7 +16,6 @@ modalClose.addEventListener('click', function () {
     modalBg.classList.add('closing')
     modalBg.classList.remove('bg-active');
     document.body.style.overflowX = 'hidden';
-    document.body.style.overflowY = 'auto';
 })
 
 let home = document.querySelector("#home");
