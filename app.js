@@ -45,3 +45,6 @@ window.addEventListener('scroll', () => {
     }
 })
 
+function peringatan() {
+    alert('Max width is 1160px and max height is 730px')
+}
