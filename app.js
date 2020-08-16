@@ -16,6 +16,7 @@ modalClose.addEventListener('click', function () {
     modalBg.classList.add('closing')
     modalBg.classList.remove('bg-active');
     document.body.style.overflowX = 'hidden';
+    document.body.style.overflowY = 'auto';
 })
 
 let home = document.querySelector("#home");
