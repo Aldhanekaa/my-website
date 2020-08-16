@@ -305,3 +305,7 @@
     left: 60px;
     animation: SASS 2s ease-in-out infinite alternate;
 }
+
+.container .card:hover {
+    border: 3px solid var(--color);
+}
