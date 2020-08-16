@@ -120,6 +120,8 @@
     box-sizing: border-box;
 }label {
     display: block;
+}.text_area_ {
+    width: 100%;   
 }.name_email {
     display: flex;
     width: 100%;
