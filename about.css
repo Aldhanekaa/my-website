@@ -136,6 +136,10 @@
     font-family: 'Roboto';
 }
 
+.container .card:hover {
+    border-bottom: 3px solid var(--color);
+}
+
 .container .card:before {
     content: '';
     position: absolute;
