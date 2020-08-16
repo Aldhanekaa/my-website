@@ -34,7 +34,7 @@
 
 .card_1 {
     width: 400px;
-    height: 560px;
+    height: 540px;
     padding: 5px 10px;
     border-radius: 15px;
     box-sizing: border-box;
@@ -50,7 +50,7 @@
 }.info_3 h2 {
     font-size: 16px;
 }.info_3 {
-    margin-top: 120px;
+    margin-top: 100px;
 }.info_2 {
     display: flex;
     width: 100%;
