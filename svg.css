@@ -1,0 +1,27 @@
+.svg-welcome {position: absolute;
+    bottom:-110px; right: 0;}
+    .svg-welcome2 {position: absolute;
+        bottom:-90px; right: 0;}
+.svg-welcome3 {
+    position: absolute;
+        bottom:-100px; right: 0;
+}    
+
+.svg-projects {position: relative;  top: -220px;
+z-index: 888;}
+.svg-projects2 {position: absolute;  top: -230px;z-index: 779;}
+.svg-projects3 {position: absolute;  top: -240px;z-index: 777;}
+
+
+.svg-project {position: relative;
+bottom: 0px; z-index: 778;}
+.svg-project2 {
+    position: absolute;
+bottom: 20px;
+z-index: 776;
+}
+.svg-project3 {
+    position: absolute;
+bottom: 10px;
+z-index: 777;
+}
