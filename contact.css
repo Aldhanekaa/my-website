@@ -139,7 +139,7 @@
     width: 45%; margin-right: 25px;
 }.email {
     width: 45%;
-}.text_area_ textarea {
+}textarea {
     padding: 10px;
     font-size: 17px;
     resize: vertical;
