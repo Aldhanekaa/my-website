@@ -138,7 +138,7 @@
           <p style="margin-top: -10px;">Thanks for <a href="https://unsplash.com" target="_blank">Unsplash</a>, <a
               href="https://github.com/michalsnik/aos" target="_blank">AOS</a>, <a href="https://www.netlify.com"
               target="_blank">Netlify</a>, <a href="https://sweetalert2.github.io/#examples"
-              target="_blank">SweetAlert2</a>, <a href="https://github.com">GitHub</a>, and <a href="https://app.bitly.com/"
+              target="_blank">SweetAlert2</a>, <a href="">GitHub</a>, and <a href="https://github.com/michalsnik/aos"
               target="_blank">bit.ly</a> for
             supporting this site.
           </p>
@@ -229,12 +229,12 @@
         <a href="">
           <i class="fa fa-twitter" style="position: relative; animation: animasi 1s 1s forwards; opacity: 0;""></i>
         </a>
-        <a href="https://www.instagram.com/_aldhaneka_/" target="_blank">
+        <a href="">
           <i class=" fa fa-instagram" style="position: relative; animation: animasi 1s 1.3s forwards; opacity: 0;"></i>
 
         </a>
         </a>
-        <a href="https://github.com/Aldhanekaa" target="_blank">
+        <a href="">
           <i class="fa fa-github" style="position: relative; animation: animasi 1s 1.7s forwards; opacity: 0;""></i>
 
         </a>
@@ -505,7 +505,47 @@
 
         </div>
       </div>
+      <div class="parent_showmore_" id="parent_showmore_" style="display: none;">
+        <div class="parent-projects">
+          <div class="projects-row project-1">
+            <div class="image-project" data-aos="fade-down-right" data-aos-duration="1800"
+              data-aos-anchor-placement="top-center">
+              <img src="login-register.png" alt="">
+              <div></div>
+            </div>
+            <div class="info-project" data-aos="fade-right" data-aos-duration="1500"
+              data-aos-anchor-placement="top-center" data-aos-delay="250">
+              <div class="no-info-project">
+                <h5>01.</h5>
+              </div>
+              <div class="title-project">
+                <h3>Login and Register Form</h3>
+              </div>
+              <div class="desc-project">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam pariatur tenetur autem voluptatem
+                ratione. Reiciendis, dicta! Voluptas quis omnis ab quasi quidem at perferendis sequi aut. Assumenda
+                aspernatur eaque aperiam?
+              </div>
+              <div class="tag-project">
+                <div class="tag">HTML</div>
+                <div class="tag">CSS</div>
+                <div class="tag">JavaScript</div>
+              </div>
+              <div class="button-project">
+                <a href="https://codepen.io/aldhaneka/pen/vYGKYja" target="_blank"><i
+                    class="fa fa-github-square"></i></a>
+                <a href="https://codepen.io/aldhaneka/full/vYGKYja" target="_blank"><i
+                    class="fa fa-share-square"></i></a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
+    <button style="z-index: 999;" class="showMoreBtn" onclick="showMoreProject();" id="showMoreBtn">ShowMore</button>
+    <div style="height: 100px; width: 100px;"></div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-project">
       <path fill="#fff" fill-opacity="100"
         d="M0,192L34.3,208C68.6,224,137,256,206,266.7C274.3,277,343,267,411,245.3C480,224,549,192,617,170.7C685.7,149,754,139,823,149.3C891.4,160,960,192,1029,170.7C1097.1,149,1166,75,1234,37.3C1302.9,0,1371,0,1406,0L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
@@ -615,7 +655,7 @@
             </div>
             <div data-netlify-recaptcha="true" style="margin-top: 20px !important;"></div>
             <button type="submit" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
-              data-aos-delay="1000">Send</button>
+              data-aos-delay="2300">Send</button>
         </div>
         </form>
       </div>
@@ -635,7 +675,7 @@
       duration: 400,
     });
   </script>
-  <script src="app.js"></script>
+  <script src="JS/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
   <script>
@@ -657,5 +697,4 @@
   </script>
 
 </body>
-
 </html>
