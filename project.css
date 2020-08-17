@@ -173,3 +173,23 @@
 }
 
 /** END OF PROJECT **/
+
+.parent_showmore_ {
+    width: 100%;
+}
+
+.showMoreBtn {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(202, 222, 240);
+    color: rgb(220, 246, 255);
+    border: 1px solid rgb(202, 222, 240);
+    font-size: 17px;
+    margin-top: -240px !important;
+    transition: .3s;
+}
+
+.showMoreBtn:hover {
+    background-color: transparent;
+}
