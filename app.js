@@ -63,4 +63,17 @@ function peringatan() {
     alert('Max width is 1160px and max height is 730px')
 }
 
+function showMoreProject() {
+    var dots = document.getElementById("parent_showmore_");
+    var btnText = document.getElementById("showMoreBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.style.display = 'none';
+
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = 'Show Less';
+    }
+}
 
