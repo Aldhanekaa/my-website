@@ -324,7 +324,7 @@
     color: aqua;
 }
 
-@media (max-width: 1160px){
+@media (max-width: 900px){
     .welcome-section{
         visibility: hidden;
         opacity: 0;
@@ -376,7 +376,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .code-area {
         font-size: 5vw;
         min-width: auto;
@@ -396,7 +396,7 @@
     }
 }
 
-@media (min-width: 1160px) {
+@media (min-width: 901px) {
     .code-area {
         visibility: hidden;
         opacity: 0;
@@ -404,7 +404,7 @@
     }
 }
 
-@media (min-width: 1160px) and (max-height: 730px) {
+@media (min-width: 900px) and (max-height: 730px) {
     header {
         visibility: hidden;
         opacity: 0;
